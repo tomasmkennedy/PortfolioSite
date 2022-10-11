@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="wrapper">
+            <!-- LOGO -->
+            <div class="navbar-logo"><a href="index.html">Tomas Kennedy</a></div>
+            <!-- NAVIGATION MENU -->
+            <ul class="navbar-items">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Github</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- BLOG CONTENT -->
+    <div class="wrapper">
+        <div class="content">
+            <h1>Creating a Calculator</h1>
+            <hr>
+            <p>I originally got the idea to create a calculator app after learning that Apple still hadn't developed a
+                calculator app for their iPad, thinking that it couldn't be too hard to develop. For that reason, the
+                visuals and layout are loosely based on the iOS calculator app.
+            </p>
+            <hr>
+            <h1>Project Repository</h1>
+            <hr>
+            <p>The project repository is posted <a href="https://github.com/tomasmkennedy/calculator">here.</a>
+                Currently most
+                features
+                are only available on mac due to tkinter specific issues on mac devices. I typically do development on
+                my M1
+                macbook,
+                so at the time of developing this project I was unable to do testing on Windows.</p>
+            <hr>
+            <h1>Development</h1>
+            <hr>
+            <p>To start off, I had to learn how to utilize the tkinter library. The first issue I ran into is that
+                tkinter
+                has visual bugs on devices running Mac OS, so I found a library called <a
+                    href="https://pypi.org/project/tkmacosx/">tkmacosx</a>
+                that allowed me to change the background color of buttons. There were more issues that I ran into as I
+                developed calculator functions, such as using global variables to keep track of colors and which "side"
+                of
+                the calculator the user wanted to interact with. Through my experimentation, I learned more about lambda
+                functions and how to take advantage of classes in Python.
+            </p>
+            <p>Overall, I learned a lot about Python through this project. It gave me the confidence later in the school
+                year to
+                opt to use Python for a <a href="tree.html">class project</a>, rather than languages I was more
+                comfortable
+                with at the time.
+            </p>
+            <hr>
+        </div>
+    </div>
+</body>

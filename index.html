@@ -11,46 +11,47 @@
 </head>
 
 <body>
-    <!-- NAVAGATION BAR -->
-    <div class="navbar">
-        <div class="nav-item-1">
-            <header id="navbar-title"><b>Tomas Kennedy</b></header>
-        </div>
-        <div class="nav-item-2">
-            <ul class="navbar-list">
-                <li class="navbar-item"><a class="navbar-link" href="https://github.com/tomasmkennedy">
-                        <img alt="Github" src="images/GitHub-Mark-32px.png">
-                    </a></li>
+    <nav class="navbar">
+        <div class="wrapper">
+            <!-- LOGO -->
+            <div class="navbar-logo"><a href="index.html">Tomas Kennedy</a></div>
+            <!-- NAVIGATION MENU -->
+            <ul class="navbar-items">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="https://github.com/tomasmkennedy">Github</a></li>
+                </div>
             </ul>
         </div>
-    </div>
-    <div class="intro">
-        <h1 id="intro-header">Hi, I'm Tomas</h1>
-        <!-- <h4>I am an Ohio-based Computer Science Student passionate about improving my programming and design knowledge -->
-        </h4>
-    </div>
-    <div class="cards-container">
-        <div class="card">
-            <h2 id="card-header">Python Calculator</h2>
-            <h4 id="card-description">This is my first python project that I developed to familiarize myself
-                with the language. This project helped me learn quite a bit about some inner
-                workings and bad practices in python.</h4>
-            <div class="card-picture"><img alt="placeholder" src="images/calculator.png"></div>
-            <div class="card-info">Learn More</div>
-        </div>
-        <div class="card">
-            <h2 id="card-header">Project 2</h2>
-            <h4 id="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus odio
-                dolor, et tincidunt libero tempor sit amet. Duis rutrum metus nec volutpat efficitur.</h4>
-            <div class="card-picture"><img alt="placeholder" src="images/stock2.jpg"></div>
-            <div class="card-info">Learn More</div>
-        </div>
-        <div class="card">
-            <h2 id="card-header">Project 3</h2>
-            <h4 id="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus odio
-                dolor, et tincidunt libero tempor sit amet. Duis rutrum metus nec volutpat efficitur.</h4>
-            <div class="card-picture"><img alt="placeholder" src="images/stock3.jpg"></div>
-            <div class="card-info">Learn More</div>
+    </nav>
+    <div class="wrapper">
+        <div class="content">
+            <h1>A Little About Me</h1>
+            <hr>
+            <p> Hi, I'm Tomas. I am an Ohio-based Computer Science Student passionate about improving my programming and
+                design knowledge.
+                My primary interest in programming is Front-End Development, and my goal is to create responsive and
+                accessible
+                interfaces for everyone using the internet.
+            </p>
+            <hr>
+            <h1>What I'm up to</h1>
+            <p>
+                Lately, I have mostly been working on projects (such as <a href="sitedev.html">this website</a>) to
+                improve
+                my HTML, CSS, Python,
+                and JavaScript skills. My first project I made to learn more about Python was a calculator that used
+                the
+                TKinter library for visuals, which I talk about more <a href="calculator.html">here</a>. My most
+                recent
+                project that I worked on with a group for my Web Development course is a recreation of the card game
+                set, which was an excellent introduction to JavaScript. I also have a writeup about this project
+                <a href="set.html">here</a>.
+            </p>
+            <hr>
         </div>
     </div>
 </body>
