@@ -141,3 +141,9 @@ input[type=checkbox]:checked ~ .menu{
     align-self: center;
     text-align: left;
 }
+
+.content li {
+    font-size: 16px;
+    font-weight: bolder;
+    list-style: disc;
+}
