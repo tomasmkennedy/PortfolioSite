@@ -2,6 +2,7 @@
     --accent: #932510;
     --gray: #343433;
     --darkGray: #202020;
+    --navText: #fff;
 }
 
 body {
@@ -73,17 +74,17 @@ hr {
 }
 
 .navbar-items a {
-    color: #fff;
+    color: var(--navText);
     text-decoration: none;
 }
 
 .navbar-items a:hover {
-    color: #fff;
+    color: var(--navText);
     text-decoration: underline;
 }
 
 .navbar-logo a {
-    color: white;
+    color: var(--navText);
     font-size: 24px;
     font-weight: bolder;
 }
