@@ -111,28 +111,17 @@ input[type=checkbox]{
  text-align: center;
  padding: 16px 0;
 }
-.menu li:hover {
- display: inline-block;
- background-color: #fff;
- transition: 0.3s ease;
-}
-.menu li + li {
- margin-top: 12px;
-}
 input[type=checkbox]:checked ~ .menu{
  display: block;
 }
 .hamburger {
  display: flex;
- color: #fff;
+ color: var(--navText);
 }
 .dropdown {
  left: 50%;
  top: 30px;
  transform: translateX(35%);
-}
-.dropdown li:hover {
- background-color: #fff;
 }
 }
 
